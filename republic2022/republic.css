@@ -1,0 +1,159 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: white;
+}
+.container {
+    background-color: white;
+    box-shadow: 2px 2px 8px black;
+    max-width: 80vw;
+    min-height: 130vh;
+    margin: 0vw 9vw; 
+    display:grid; 
+    justify-content: center;
+}
+#name {text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    position:relative;
+    top: 10vw;
+    height: 15%;
+    width: auto;
+    text-align: center;
+    color: coral;
+    -webkit-text-stroke: 1px black;
+    animation: swing 4s infinite;
+    right: auto;
+    left: auto;
+    margin: 0% 2px;
+    }
+    @keyframes swing {
+        0% {color: orange;}
+        20% {color: blue;}
+        40% {color: yellow;}
+        60% {color: red;}
+        80% {color: green;}
+        100% {color: darkviolet;}
+        0% {transform: rotate(-5deg);}
+        20% {transform: rotate(-5deg);} 
+        40% {transform: rotate(5deg);} 
+        60% {transform: rotate(-5deg);} 
+        80% {transform: rotate(5deg);} 
+        100% {transform: rotate(-5deg);}
+    }
+    #image1 { top: 8px;
+        position: relative;
+        width: auto;
+        height: auto;
+        margin: 2% 2% 2%;
+        padding: 2%;
+        align-self: center;
+        left: 2px;
+        right: 2px;
+        justify-self: center;
+
+    } 
+    #image2 {  bottom: 57px;
+        left: auto;
+        right: auto;
+        position: relative;
+        width: auto;
+        height: auto;
+        align-self: center;
+        margin: 2%;
+        justify-self:center;
+
+      }
+    #image3 {  bottom: 115px;
+        left: auto;
+        right: auto;
+        position: relative;
+        width: 72vw;
+        height: 59vw;
+        margin: 0% 2px;
+        align-self: center;
+        justify-self: center;
+    } 
+    #quote {
+        position: relative;
+        width: 100%;
+        height: 5vw;
+        bottom: 160px;
+        color: white;
+        text-align: center;
+        justify-self: center;
+}
+    #quote1 {
+        background-color: #ff1e00 ;
+        position: relative;
+        border: 2px solid black;
+        border-radius: 20px;
+        
+    }
+    #quote2 {
+        background-color: rgb(15, 148, 3);
+        position: relative;
+        top: 4px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    #quote3 {
+        background-color: rgb(6, 78, 233);
+        position: relative;
+        top: 8px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    #quote4 {
+        background-color: rgb(238, 41, 6);
+        position: relative;
+        top: 12px;
+        border: 2px solid black;
+        border-radius: 20px;
+    }
+    #text {
+        text-align: center;
+        color: blue;
+        position: relative;
+        bottom: 125px;
+        font-size: 6vw;
+        height: 3vh;
+        width: 74vw;
+        justify-self: center;
+    }
+    #form-content-box {
+        text-align: center;
+        position: relative;
+        bottom: 76px;  
+    }
+    #form-name input[type=text] {
+        box-sizing: border-box;
+        background-color:rgb(255, 81, 0);
+        border: 2px solid green;
+        border-radius: 30px;
+        width: 80%;
+        height: 5vh;
+        bottom: 10px;
+        position: relative;
+
+    }
+    #form-submit button{
+        width: 32vw;
+        height: 4vh;
+        border:  2px  solid yellow;
+        border-radius: 30px;
+        font-size: 18px;
+        background-color: rgb(128, 41, 0);
+        color: white;
+    }
+        
+    
+    
+
+
+  
+    
+    
